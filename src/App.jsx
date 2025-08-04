@@ -15,7 +15,7 @@ export const App = () => {
 	})
 
 	useEffect(() => {
-	 sr.reveal('header, .section-title', { origin: 'top', })
+	 sr.reveal('.top-nav, .section-title', { origin: 'top', })
 	 sr.reveal('.hero-img', { origin: 'right', })
 	 sr.reveal('.hero-content', { origin: 'left', interval: 150, })
 	 sr.reveal('.socialmedia', { origin: 'left', interval: 300, })

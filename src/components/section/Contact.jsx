@@ -64,7 +64,7 @@ const handleChange = (e) => {
 	
 	
 	return (
-		<section className="mt-32">
+		<section id="contact" className="mt-32">
 			<SectionTitle text="CONTACT ME" />
 			<h1 className="text-center text-2xl mt-10 font-bold font-montserrat">Reach Out To Me</h1>
 			<div className="flex justify-center items-center gap-x-14 gap-y-20 flex-wrap mt-16">

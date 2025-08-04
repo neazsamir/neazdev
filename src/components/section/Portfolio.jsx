@@ -3,20 +3,44 @@ import { SectionTitle } from '../ui/SectionTittle'
 export const Portfolio = () => {
 	const projects = [
 		{
-			name: 'Gym Center',
+			name: 'Temvi',
 			id: 1,
+			mockup: 'mockup-temvi.png',
+			title: 'Fullstack social media platform',
+			url: "https://temvi.netlify.app/",
+			c: {
+				name: 'Neaz Mahmud Samir',
+				link: '#',
+			}
+		},
+		{
+			name: 'Ordinary Movie',
+			id: 2,
+			mockup: 'mockup-om.png',
+			title: 'Genre Based Movie Suggetion Website',
+			url: "https://ordinarymovie.netlify.app",
+			c: {
+				name: 'Neaz Mahmud Samir',
+				link: 'https://ordinarymovie.netlify.app',
+			}
+		},
+		{
+			name: 'Gym Center',
+			id: 3,
 			mockup: 'mockup-gymcenter.png',
 			title: 'Landing Page For A Gym Center',
+			url: "https://gymcenter-neaz.netlify.app/",
 			c: {
 				name: 'Not Found',
-				link: '#'
+				link: '#',
 			}
 		},
 		{
 			name: 'Drake Portfolio',
-			id: 2,
+			id: 4,
 			mockup: 'mockup-drake.png',
 			title: 'Portfolio For A Framer Designer',
+			url: "https://portfolio-drake.netlify.app/",
 			c: {
 				name: 'WordPressRiver',
 				link: "https://themeforest.net/user/wordpressriver",
@@ -24,9 +48,10 @@ export const Portfolio = () => {
 		},
 		{
 			name: 'Nishchinto',
-			id: 3,
+			id: 5,
 			mockup: 'mockup-nishchinto.png',
 			title: 'Landing Page For A Crypto App',
+			url: "https://nischinto.netlify.app/",
 			c: {
 				name: 'Not Found',
 				link: '#'
@@ -34,22 +59,13 @@ export const Portfolio = () => {
 		},
 		{
 			name: 'Burger',
-			id: 4,
+			id: 6,
 			mockup: 'mockup-burger.png',
 			title: 'Landing Page For A Burger Restaurant',
+			url: "https://neaz-burger-landing.netlify.app",
 			c: {
 				name: 'codestarthemes',
 				link: "https://themeforest.net/user/codestarthemes"
-			}
-		},
-		{
-			name: 'Ordinary Movie',
-			id: 5,
-			mockup: 'mockup-om.png',
-			title: 'Genre Based Movie Suggetion Website',
-			c: {
-				name: 'Neaz Mahmud Samir',
-				link: 'https://ordinarymovie.netlify.app'
 			}
 		},
 	]

@@ -17,9 +17,9 @@ export const Header = () => {
     };
   }, [isOpen]);
 	return (
-		<header className="mt-4 w-full">
+		<header className="mt-4 w-full z-30">
 			{/* Top nav bar (Lg screens) */}
-			<div className="rounded-3xl shadow-[2px_2px_10px_0_rgba(0,0,0,0.3)] w-full p-3 px-5 flex items-center justify-between">
+			<div className="top-nav rounded-3xl shadow-[2px_2px_10px_0_rgba(0,0,0,0.3)] w-full p-3 px-5 flex items-center justify-between">
 				<a href="/"><h2 className="font-montserrat font-extrabold text-2xl">NEAZ</h2></a>
 				<nav>
 			<ul className="items-center gap-10 font-bold hidden md:flex">
@@ -34,7 +34,7 @@ export const Header = () => {
 			</button>
 			</div>
 			{/*Side bar (Smaller screens)*/}
-			<div className={`fixed top-0 md:hidden max-w-[300px] w-full p-5 h-screen shadow-[-10px_0px_10px_0px_rgba(0,0,0,0.15)] backdrop-blur-lg bg-white/30 transition-all duration-500 ease-in z-10 ${isOpen ? 'right-0' : 'right-[-320px]'}`}>
+			<div className={`fixed top-0 md:hidden max-w-[300px] w-full p-5 h-screen shadow-[-10px_0px_10px_0px_rgba(0,0,0,0.15)] backdrop-blur-lg bg-white/30 transition-all duration-500 ease-in z-[100]  ${isOpen ? 'right-0' : 'right-[-320px]'}`}>
 				<button onClick={() => setIsOpen(false)}>
 					<FaXmark className="text-4xl mb-7" />
 				</button>
