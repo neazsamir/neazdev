@@ -26,6 +26,7 @@ export const Header = () => {
 				<li><a className="hover:text-primary transition duration-300 ease-in" href="#home">HOME</a></li>
 				<li><a className="hover:text-primary transition duration-300 ease-in" href="#about">ABOUT ME</a></li>
 				<li><a className="hover:text-primary transition duration-300 ease-in" href="#portfolio">PORTFOLIO</a></li>
+				<li><a className="hover:text-primary transition duration-300 ease-in" href="#reviews">REVIEWS</a></li>
 				<li><a className="hover:text-primary transition duration-300 ease-in" href="#contact">CONTACT ME</a></li>
 			</ul>
 			</nav>
@@ -43,6 +44,7 @@ export const Header = () => {
 				<li onClick={() => setIsOpen(false)}><a className="hover:text-primary transition duration-300 ease-in" href="#home">HOME</a></li>
 				<li onClick={() => setIsOpen(false)}><a className="hover:text-primary transition duration-300 ease-in" href="#about">ABOUT ME</a></li>
 				<li onClick={() => setIsOpen(false)}><a className="hover:text-primary transition duration-300 ease-in" href="#portfolio">PORTFOLIO</a></li>
+				<li onClick={() => setIsOpen(false)}><a className="hover:text-primary transition duration-300 ease-in" href="#reviews">REVIEWS</a></li>
 				<li onClick={() => setIsOpen(false)}><a className="hover:text-primary transition duration-300 ease-in" href="#contact">CONTACT ME</a></li>
 			</ul>
 			</nav>

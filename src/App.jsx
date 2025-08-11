@@ -3,6 +3,7 @@ import { Home } from './components/section/Home'
 import { About } from './components/section/About'
 import { Skills } from './components/section/Skills'
 import { Portfolio } from './components/section/Portfolio'
+import { Reviews } from './components/section/Reviews'
 import { Contact } from './components/section/Contact'
 import { useEffect } from 'react'
 import ScrollReveal from 'scrollreveal'
@@ -24,10 +25,6 @@ export const App = () => {
 	 sr.reveal('.about-content, .skill-card, .project-card', { origin: 'bottom', interval: 150,})
 	 sr.reveal('.contact-info', { origin: 'top', interval: 150,})
 	 sr.reveal('.form-input', { origin: 'top', interval: 150,})
-	 
-	 
-	 
-	 
 	}, [])
 	
 	return (
@@ -37,6 +34,7 @@ export const App = () => {
 		<About />
 		<Skills />
 		<Portfolio />
+		<Reviews />
 		<Contact />
 	</div>
 	)
